@@ -1,0 +1,6 @@
+{
+  "description": "DMX over serial (Enttec DMX USB PRO / PRO Mk2)",
+  "author": "icq4ever",
+  "license": "MIT",
+  "keywords": ["dmx", "serial", "lighting", "enttec", "stage"]
+}
