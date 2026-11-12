@@ -16,7 +16,7 @@ void tcApp::cleanup() {
 
 void tcApp::rescan() {
     devices = dmx.isConnected() ? std::vector<SerialDeviceInfo>{}
-                                : Serial{}.getDeviceList();
+                                : Serial::listDevices();
     if (selectedDevice < 0 && !devices.empty()) {
         selectedDevice = 0;
     }
